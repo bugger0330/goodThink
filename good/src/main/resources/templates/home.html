@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/top/header.css">
+    <link rel="stylesheet" href="/static/css/top/footer.css">
+    <link rel="stylesheet" href="/static/css/top/home.css">
+    <link rel="stylesheet" href="/static/css/auth/signin.css">
+    
+</head>
+<body>
+<div id="container">
+	<div th:replace="header :: header"></div>
+    <div class="billboard-w">
+        <div class="viewport">
+            <div class="cnts bg_img1">
+            	<img class="bg-imgs" src="/static/images/home/bg1.jpg">
+            </div>
+            <div class="cnts bg_img2">
+            	<img class="bg-imgs" src="/static/images/home/bg2.jpg">
+            </div>
+            <div class="cnts bg_img3">
+            	<img class="bg-imgs" src="/static/images/home/bg3.jpg">
+            </div>
+            <div class="cnts bg_img4">
+            	<img class="bg-imgs" src="/static/images/home/bg4.png">
+            </div>
+            <div class="cnts bg_img5">
+            	<img class="bg-imgs" src="/static/images/home/bg5.jpg">
+            </div>
+            <div class="cnts bg_img6">
+            	<img class="bg-imgs" src="/static/images/home/bg6.jpg">
+            </div>
+        </div>
+        <div class="controller">
+            <div class="inner">
+                    <span class="prev">◀</span>
+                    <span class="pagination">
+                        <span class="pn-btns swiper-pagination-current">2</span>
+                        <span>&nbsp;</span>/
+                        <span>&nbsp;</span>
+                        <span class="swiper-pagination-total">6</span>
+                    </span>
+                    <span class="span1">&nbsp;</span>
+                        <span class="next">▶</span>
+            </div>
+        </div>
+        <span class="swiper-notification"></span>
+    </div>
+    <div class="like-think">
+        <h2 class="mtit">
+            <span>긍정의 마음을 전하는 책과 선물들</span>
+        </h2>
+        <ul class="thumb-list">
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=53">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/wdpc7cz_20221114014733.png">
+                    <div>
+                        <strong>[MAGAZINE] 2022년 12월 호</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=52">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/iAnQx7g_20221024022437.jpg">
+                    <div>
+                        <strong>[BOOK] 망그러진 만화</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=51">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/06BozDV_20221024014803.jpg">
+                    <div>
+                        <strong>[BOOK] 고양이는 못 참지</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=50">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/enZKeWJ_20221007090653.png">
+                    <div>
+                        <strong>[MAGAZINE] 2022년 11월 호</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=49">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/MCNdFw1_20221006004703.png">
+                    <div>
+                        <strong>[GIFT] 그리는 독서 노트</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.positive.co.kr/goodsintroduce/details?id=48">
+                    <img src="http://poti-storeimages.positive.co.kr/goodsintroduce/m5gnBh1_20220927012931.jpg">
+                    <div>
+                        <strong>[BOOK] 컬러링 가계부</strong>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="btn-more">
+            <a class="plus-btn">
+            	<img class="plus-btn-icon" src="/static/images/etc/plus-icon.png">
+            </a>
+        </div>
+    </div>
+    <div class="f-info">
+        <div class="inner1">
+            <h2>
+                <span>고객문의</span>
+            </h2>
+            <ul>
+                <li>
+                    <a href="http://www.positive.co.kr/cs/notice/1">좋은생각 소식</a>
+                </li>
+                <li>
+                    <a>1:1문의</a>
+                </li>
+                <li>
+                    <a href="http://www.positive.co.kr/cs/faq">자주하는 질문</a>
+                </li>
+            </ul>
+            <div class="customer">
+                <ul>
+                    <li>
+                        <i>정기구독</i>
+                        <span>02 - 337 - 0332</span>
+                    </li>
+                    <li>
+                        <i>다량문의</i>
+                        <span>02 - 330 - 0305</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div th:replace="footer :: footer"></div>
+</div>   
+<script type="text/javascript" src="/static/js/top/home.js"></script>
+<script type="text/javascript" src="/static/js/top/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+.billboard-w {
+    margin: 0 auto;
+    padding: 0;
+    word-break: break-all;
+    position: relative;
+    width: 1232px;
+    height: 391px;
+    max-width: 1232px;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.viewport {
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    display: flex;
+    position: relative;
+    width: 1230px;
+    height: 391px;
+    box-sizing: content-box;
+    transition-property: transform;
+    transition-duration: 0;
+   
+}
+
+.cnts {
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    display: flex;
+    position: relative;
+    height: 391px;
+}
+
+.bg-imgs{
+	width: 100%;
+}
+
+.bg_img1 {
+    /*background-image: url("/static/images/home/bg1.jpg");*/
+    cursor: pointer;
+}
+.bg_img2 {
+    /*background-image: url("/static/images/home/bg2.jpg");*/
+    cursor: pointer;
+}
+.bg_img3 {
+    /*background-image: url("/static/images/home/bg3.jpg");*/
+    cursor: pointer;
+}
+.bg_img4 {
+    /*background-image: url("/static/images/home/bg4.jpg");*/
+    cursor: pointer;
+}
+.bg_img5 {
+    /*background-image: url("/static/images/home/bg5.jpg");*/
+    cursor: pointer;
+}
+.bg_img6 {
+    /*background-image: url("/static/images/home/bg6.jpg");*/
+    cursor: pointer;
+}
+
+.controller {
+    margin: 0 auto;
+    padding: 0 16px;
+    word-break: break-all;
+    max-width: 1232px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.inner {
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    position: absolute;
+    left: 16px;
+    bottom: 46px;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.prev {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    z-index: 100;
+}
+.next {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    z-index: 100;
+}
+
+.prev > span {
+   font-size: 20px;
+}
+.next > span {
+   font-size: 20px;
+}
+
+.pagination {
+    word-break: break-all;
+    font-size: 23px;
+    font-weight: 200;
+    z-index: 100;
+}
+
+.swiper-pagination-current {
+    word-break: break-all;
+}
+
+.swiper-pagination-total {
+    word-break: break-all;
+}
+
+.swiper-notification {
+    word-break: break-all;
+}
+
+.span1 {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.like-think {
+    margin: 0 auto;
+    padding: 70px 16px 0;
+    word-break: break-all;
+    position: relative;
+    max-width: 1232px;
+    box-sizing: border-box;
+}
+
+.mtit {
+    margin: 0;
+    padding: 0;
+}
+.mtit > span {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+}
+
+.thumb-list {
+    margin: 0;
+    padding: 0;
+    list-style: outside none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumb-list > li {
+    margin: 40px 0 0;
+    padding: 0;
+    list-style: outside none;
+    word-break: break-all;
+}
+.thumb-list > li > a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    display: block;
+    position: relative;
+    border: 1px solid rgb(235, 235, 235);
+    width: 340px;
+}
+.thumb-list > li > a > img {
+    border: 0 none;
+    width: 340px;
+    vertical-align: top;
+}
+.thumb-list > li > a > div {
+    margin: 0;
+    padding: 15px;
+    word-break: break-all;
+    position: absolute;
+    bottom: 0;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+}
+.thumb-list > li > a > div > strong {
+    font-weight: normal;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.btn-more {
+    margin: 50px 0 0;
+    padding: 0;
+    word-break: break-all;
+    text-align: center;
+}
+
+.btn-more > a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.btn-more > a > span {
+    word-break: break-all;
+    display: inline-block;
+    font-size: 1px;
+    line-height: 0;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.f-info {
+    margin: 0;
+    padding: 30px 0 35px;
+    word-break: break-all;
+    background: rgb(250, 250, 250);
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0;
+    -webkit-text-stroke-width: 0;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.inner1 {
+    margin: 0 auto;
+    padding: 0 16px;
+    word-break: break-all;
+    position: relative;
+    max-width: 1232px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.inner1 > h2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+.inner1 > h2 > span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(51, 51, 51);
+}
+.inner1 > ul {
+    margin: 0;
+    padding: 5px 0 0 130px;
+    list-style: outside none;
+    display: flex;
+    justify-content: flex-start;
+}
+.inner1 > ul > li {
+    margin: 0;
+    padding: 0;
+    list-style: outside none;
+    word-break: break-all;
+}
+.inner1 > ul > li > a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+}
+
+.customer {
+    margin: 0;
+    padding: 10px 0 0;
+    word-break: break-all;
+}
+
+.customer > ul {
+    margin: 0;
+    padding: 0;
+    list-style: outside none;
+}
+.customer > ul > li {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: outside none;
+    word-break: break-all;
+}
+.customer > ul > li > i {
+    font-style: normal;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(102, 102, 102);
+}
+.customer > ul > li > span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(102, 102, 102);
+}
+
+.plus-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.plus-btn-icon{
+	width: 40px;
+	position: absolute;
+	top: 13px;
+	left:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

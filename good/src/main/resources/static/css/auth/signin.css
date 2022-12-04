@@ -1,0 +1,169 @@
+.layer-popup-off {
+    display: none;
+}
+.layer-popup-on {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 1903px;
+    height: 969px;
+    padding: 20px 16px;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0;
+    -webkit-text-stroke-width: 0;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.inbox-layer {
+    margin: 0 auto;
+    padding: 40px 65px 0;
+    word-break: break-all;
+    position: relative;
+    width: 480px;
+    max-width: 480px;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 6px 20px 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.login-w {
+    margin: 0;
+    padding: 0 0 50px;
+    word-break: break-all;
+    text-align: center;
+}
+
+.login-w > h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.login-w > h1 > span {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.login-w > p {
+    margin: 20px 0 0;
+    padding: 0;
+    word-break: break-all;
+    line-height: 29px;
+}
+.login-w > p > span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.login-w > ul {
+    margin: 0;
+    padding: 0;
+    list-style: outside none;
+}
+
+.login-w > ul > li {
+    margin: 25px 0 0;
+    padding: 0;
+    list-style: outside none;
+    word-break: break-all;
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+}
+.login-w > ul > li > span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+.login-w > ul > li > input {
+    margin: 0;
+    padding: 0 15px;
+    width: 300px;
+    height: 46px;
+    appearance: none;
+    border: 1px solid rgb(175, 175, 175);
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    outline: none 0;
+    background: rgb(255, 255, 255);
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.submit {
+    margin: 30px 0 0;
+    padding: 0 50px;
+    cursor: pointer;
+    border-radius: 26px;
+    box-sizing: border-box;
+    appearance: none;
+    font-size: 16px;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    background: rgb(54, 114, 33);
+    display: inline-block;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    line-height: 44px;
+}
+
+.sch-w {
+    margin: 40px 0 0;
+    padding: 0;
+    word-break: break-all;
+}
+
+.sch-w > a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+}
+
+.close {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+    font-size: 14px;
+    font-family: NotoSans, Roboto, Droid Sans, Malgun Gothic, Helvetica, Apple-Gothic, 애플고딕, Tahoma, dotum, 돋움, gulim, 굴림, sans-serif;
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.close-img{
+	width: 100%;
+}
+

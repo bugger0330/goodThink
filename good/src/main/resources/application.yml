@@ -1,0 +1,34 @@
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true
+      force-response: true
+      
+  tomcat:
+    uri-encoding: UTF-8
+    
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  web:
+    resources:
+      static-locations:
+      - classpath:/static/
+      add-mappings: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/good?userUnicode=true&serverTimezone=Asia/seoul&allowMultiQueries=true
+    username: root
+    password: toor
+  security:
+    user:
+      name: test
+      password: 1234
+   
+mybatis:
+  mapper-locations:
+  - /mappers/*.xml

@@ -8,7 +8,11 @@ public class PageHomeController {
 
 	@GetMapping("/")
 	public String home() {
-		return "/";
+		return "/home";
+	}
+	@GetMapping("/signin")
+	public String signin() {
+		return "/auth/signin";
 	}
 	
 	

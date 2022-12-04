@@ -1,0 +1,87 @@
+<div class="header" th:fragment="header">
+    <header>
+        <h1>
+            <a href="http://www.positive.co.kr/">
+                <span></span>
+            </a>
+        </h1>
+        <nav>
+            <div class="def-menu">
+                <ul>
+                    <li>
+                        <a href="#">제품소개</a>
+                    </li>
+                        <span>&nbsp;</span>
+                    <li>
+                        <a href="#">정기구독</a>
+                    </li>
+                        <span>&nbsp;</span>
+                    <li>
+                        <a href="#">원고응모</a>
+                    </li>
+                        <span>&nbsp;</span>
+                    <li>
+                        <a href="#">새벽햇살</a>
+                    </li>
+                        <span>&nbsp;</span>
+                    <li class="def-li">
+                        <a class="n-store" href="#" target="_blank">스토어</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="utill">
+                <ul>
+                    <li class="in-cart">
+                        <div class="top-menu">장바구니
+                            <i>0</i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top-menu">로그인</div>
+                    </li>
+                    <li>
+                        <div class="top-menu">회원가입</div>
+                    </li>
+                    <li class="in-depth">
+                        <div class="top-menu">고객센터</div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="layer-popup-off">
+        <div class="inbox-layer">
+        <form action="/auth/signin" method="post">
+            <div class="login-w">
+                <h1>
+                    <span>로그인</span>
+                </h1>
+                <p>
+                    <span>아이디와 비밀번호를 입력해주세요.</span>
+                </p>
+                
+                <ul>
+                    <li>
+                        <span>아이디</span>
+                        <input type="text" name="username">
+                    </li>
+                    <li>
+                        <span>비밀번호</span>
+                        <input type="password" name="password">
+                    </li>
+                </ul>
+                <button class="submit">로그인</button>
+                
+                <div class="sch-w">
+                    <a href="#">회원가입 ｜</a>
+                    <a href="#">아이디 찾기 ｜</a>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+            </div>
+            </form>
+            <button class="close" type="button">
+            	<img class="close-img" src="/static/images/etc/x-button.png">
+            </button>
+        </div>
+    </section>
+</div>
